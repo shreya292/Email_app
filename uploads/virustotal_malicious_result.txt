@@ -1,0 +1,6 @@
+test.com	Malicious. Detected by 3 solutions.
+malicious-site.com	Malicious. Detected by 1 solutions.
+test.com	Malicious. Detected by 3 solutions.
+malicious-site.com	Malicious. Detected by 1 solutions.
+test.com	Malicious. Detected by 3 solutions.
+malicious-site.com	Malicious. Detected by 1 solutions.

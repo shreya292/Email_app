@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+</head>
+<body>
+    <h1>Analysis Results</h1>
+    <p><strong>Name:</strong> {{ analysis_details.name }}</p>
+    <p><strong>Size:</strong> {{ analysis_details.size }} KB</p>
+    <p><strong>Description:</strong> {{ analysis_details.description }}</p>
+    <p><strong>SHA-256 Hash:</strong> {{ analysis_details.hash }}</p>
+    <h2>Results:</h2>
+    <ul>
+    {% for result in analysis_details.results %}
+        <li>{{ result.name }}: {{ result.verdict }}</li>
+    {% endfor %}
+    </ul>
+    <h2>Summary:</h2>
+    <p>{{ analysis_details.summary }}</p>
+    <a href="{{ url_for('index') }}">Scan Another File</a>
+</body>
+</html>

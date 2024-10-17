@@ -1,0 +1,4 @@
+example.com	NOT malicious.
+example.com	NOT malicious.
+example.com	NOT malicious.
+example.com	NOT malicious.
