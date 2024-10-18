@@ -9,6 +9,7 @@ A simple Flask web application that allows users to upload files for analysis us
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
+- [View the Results]
 - [Docker Setup].(#Docker-setup)
 - [Contact](#contact)
 
@@ -41,6 +42,15 @@ A simple Flask web application that allows users to upload files for analysis us
 - The application sends the file to the VirusTotal API for malware scanning.
 - A detailed report is fetched from the VirusTotal API, which includes virus detection results from various antivirus engines.
 - The report is displayed on the web page, showing file details such as size, hash, and analysis results.
+
+## View the Results
+
+After submitting the file, the application will analyze it, and you will be redirected to a results page displaying:
+- The file name
+- File size
+- Description of the file type
+- The file hash
+- Results from various antivirus engines, indicating whether they found the file to be malicious or not.
 
 ## Docker Setup
 
