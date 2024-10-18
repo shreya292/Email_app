@@ -39,4 +39,12 @@ A simple Flask web application that allows users to upload files for analysis us
 Shreya Barnwal - shreyabarnwal292@gmail.com
 GitHub: shreya292
 
+## Contribution
+
+- prachballa
+- shivanikumawat19
+- Allampati-sireesha
+- TSathvik19
+- Sannapavithra
+
 
