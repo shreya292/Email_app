@@ -41,10 +41,10 @@ GitHub: shreya292
 
 ## Contribution
 
-- prachballa
+- prachiiBB
 - shivanikumawat19
 - Allampati-sireesha
-- TSathvik19
 - Sannapavithra
+- TSathvik19
 
 
